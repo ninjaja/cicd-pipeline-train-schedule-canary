@@ -37,8 +37,7 @@ pipeline {
                     }
                 }
             }
-        }
-        }
+        }        
         stage('CanaryDeploy') {
           when {
             branch 'master'
